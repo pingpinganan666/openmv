@@ -99,7 +99,7 @@
 #define IMLIB_ENABLE_APRILTAGS_TAG36H11
 
 // Enable fine find_apriltags() - (8-way connectivity versus 4-way connectivity)
-// #define IMLIB_ENABLE_FINE_APRILTAGS
+#define IMLIB_ENABLE_FINE_APRILTAGS
 
 // Enable high res find_apriltags() - uses more RAM
 #define IMLIB_ENABLE_HIGH_RES_APRILTAGS
@@ -131,16 +131,16 @@
 #define IMLIB_ENABLE_DESCRIPTOR
 
 // Enable find_hog()
-// #define IMLIB_ENABLE_HOG
+ #define IMLIB_ENABLE_HOG
 
 // Enable selective_search()
-// #define IMLIB_ENABLE_SELECTIVE_SEARCH
+ #define IMLIB_ENABLE_SELECTIVE_SEARCH
 
 // Enable PNG encoder/decoder
 #define IMLIB_ENABLE_PNG_ENCODER
 #define IMLIB_ENABLE_PNG_DECODER
 
 // Stereo Imaging
-// #define IMLIB_ENABLE_STEREO_DISPARITY
+#define IMLIB_ENABLE_STEREO_DISPARITY
 
 #endif //__IMLIB_CONFIG_H__
